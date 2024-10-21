@@ -1,0 +1,84 @@
+/* Base styles */
+body {
+  background-color: rgb(255, 255, 255); /* Soft white background */
+  color: rgb(54, 69, 79); /* Charcoal gray text for better readability */
+  font-family: 'Georgia', serif; /* Font family */
+}
+
+h1 {
+  text-transform: uppercase; /* Uppercase for the main title */
+  text-align: center; /* Center align the title */
+  margin: 20px 0; /* Margin for spacing */
+  color: rgb(255, 255, 255); /* Charcoal gray for the main title */
+}
+
+h2 {
+  text-align: center; /* Center align the sub-header */
+  margin: 10px 0; /* Margin for spacing */
+  color: rgb(54, 69, 79); /* Charcoal gray for subheaders */
+}
+
+header {
+  background-color: rgb(54, 69, 79); /* Muted olive background for header */
+  padding: 20px; /* Padding for the header */
+}
+
+nav {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center navigation items */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Horizontal layout */
+}
+
+nav ul li {
+  margin-right: 20px; /* Space between menu items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: rgb(255, 255, 255); /* White color for links */
+  font-size: 20px; /* Font size for links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effects */
+}
+
+nav ul li a:hover {
+  background-color: rgb(54, 69, 79); /* Charcoal gray on hover */
+  color: rgb(255, 255, 255); /* Keep white text on hover */
+}
+
+img {
+  display: block; /* Block display for images */
+  margin: 20px auto; /* Center images with auto margins */
+  padding-top: 20px; /* Padding above images */
+  max-width: 100%; /* Responsive images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Section styles */
+section {
+  font-size: 20px; /* Font size for sections */
+  margin: 20px; /* Margin for spacing */
+  padding: 20px; /* Padding inside sections */
+  border: 1px solid rgb(54, 69, 79); /* Muted olive border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: rgb(255, 255, 255); /* Soft white background for sections */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+footer {
+  background-color: rgb(54, 69, 79); /* Muted olive footer background */
+  color: rgb(255, 255, 255); /* White text color in footer */
+  text-align: center; /* Center align footer text */
+  padding: 10px 0; /* Padding for footer */
+}
